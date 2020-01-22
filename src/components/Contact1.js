@@ -6,16 +6,16 @@ class Contact1 extends Component {
 		keyword: '',
 		contactData: [{
 			name : 'rok',
-			phone : '010-1111-2222';
+			phone : '010-1111-2222'
 		},{
-			name : 'young';
-			phone : '010-2222-3333';
+			name : 'young',
+			phone : '010-2222-3333'
 		}, {
-			name : 'hyun';
-			phone : '010-4444-3333';
+			name : 'hyun',
+			phone : '010-4444-3333'
 		}, {
-			name : 'Ryang';
-			phone : '010-6666-2222';
+			name : 'Ryang',
+			phone : '010-6666-2222'
 		},] // contactData end
     }//  //state end
 	_searchContact = (e) => {
@@ -52,7 +52,6 @@ class Contact1 extends Component {
 		)
 		}
 	}
-}
 
 export default Contact1;
 
