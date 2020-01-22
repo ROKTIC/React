@@ -5,7 +5,7 @@ class Contact1 extends Component {
 	state = {
 		keyword: '';
 		contactData: [{
-			name : 'inrok',
+			name : 'rok',
 			phone : '010-1111-2222';
 		},{
 			name : 'young';
