@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Test_comp from './components/Contact1';
+import Contact1 from './components/Contact1';
 
 const title = 'hot module replacement';
 
