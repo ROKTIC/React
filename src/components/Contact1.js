@@ -3,7 +3,7 @@ import ContactInfo from './ContactInfo';
 
 class Contact1 extends Component {
 	state = { // 오류 발생 **
-		keyword: '';
+		keyword: '',
 		contactData: [{
 			name : 'rok',
 			phone : '010-1111-2222';
