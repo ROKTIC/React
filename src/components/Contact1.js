@@ -45,7 +45,7 @@ class Contact1 extends Component {
 					name="keyword"
 					placeholder="Search"
 					value={this.state.keyword}
-					onchange = {this._searchContact} // input 창에 입력될때마다
+					onChange = {this._searchContact} // input 창에 입력될때마다
 				/>
 				<div>{mapToComponents(this.state.contactData)}</div> {/*목록으로 표시 */}
 			</div>
