@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ContactInfo from './ContactInfo';
 
-class Contact1 extends Component {
+class Contact1 extends Component { // SEARCH창에서 목록 검색하기 (문자 입력할때마다 그 해당 문자가 있는 리스트들 바로 업데이트
 	state = { // 오류 발생 **
 		keyword: '',
 		contactData: [{
