@@ -1,5 +1,7 @@
 # React
+cmd console.
+C/React
+npm start
 
-#CMD NPM
 #간단 전화번호부
  
