@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Test_comp from './components/Test_comp';
+import Test_comp from './components/Contact1';
 
-const title = 'React JS Mastering';
+const title = 'hot module replacement';
 
 
 ReactDOM.render(
-  <Test_comp />,
+  <Contact1 />,
   document.getElementById('root')
 );
 
