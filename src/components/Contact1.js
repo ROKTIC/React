@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ContactInfo from './ContactInfo';
 
 class Contact1 extends Component {
-	state = {
+	state = { // 오류 발생 **
 		keyword: '';
 		contactData: [{
 			name : 'rok',
