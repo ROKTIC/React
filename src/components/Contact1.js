@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import ContactInfo from './ContactInfo';
-
+/*
+ * Plugin 설치로 6번줄 오류 해결하였으며 
+ * 데이터 삽입 시 ","와 ";" 문법 실수 수정 
+ */  
 class Contact1 extends Component { // SEARCH창에서 목록 검색하기 (문자 입력할때마다 그 해당 문자가 있는 리스트들 바로 업데이트
-	state = { // 오류 발생 **
+	state = { 
 		keyword: '',
 		contactData: [{
 			name : 'rok',
